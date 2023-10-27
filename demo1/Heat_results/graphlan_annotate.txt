@@ -1,0 +1,867 @@
+ignore_branch_len	0	
+total_plotted_degrees	360	
+start_rotation	-96	
+clade_separation	0	
+branch_bracket_depth	0.8	
+branch_bracket_width	0.5	
+branch_thickness	0.75	
+branch_color	black	
+branch_color_from_ancestor	1	
+annotation_background_width	0.6	
+annotation_background_alpha	0.2	
+annotation_background_separation	-0.5	
+annotation_background_offset	0.02	
+annotation_legend_font_size	7	
+clade_marker_size	16	
+clade_marker_shape	o	
+clade_marker_edge_width	0.25	
+clade_marker_edge_color	black	
+clade_marker_font_color	k	
+p__Actinobacteria*	clade_marker_color	#EF5656
+p__Proteobacteria*	clade_marker_color	#2BB065
+p__Bacteroidetes*	clade_marker_color	#47B3DA
+p__Firmicutes*	clade_marker_color	#F7A415
+p__Proteobacteria	annotation_background_color	#B0FFC0
+p__Actinobacteria	annotation_background_color	#FFB0B0
+p__Bacteroidetes	annotation_background_color	#B0E9FD
+p__Firmicutes	annotation_background_color	#FCDBA2
+Helicobacteraceae	annotation	*
+Helicobacteraceae	annotation_rotation	90
+Helicobacteraceae	annotation_background_color	#85F29B
+FGB74567	annotation	*
+FGB74567	annotation_rotation	90
+FGB74567	annotation_background_color	#91DBF6
+Bacteroidaceae	annotation	*
+Bacteroidaceae	annotation_rotation	90
+Bacteroidaceae	annotation_background_color	#91DBF6
+FGB9658	annotation	*
+FGB9658	annotation_rotation	90
+FGB9658	annotation_background_color	#91DBF6
+Lactobacillaceae	annotation	*
+Lactobacillaceae	annotation_rotation	90
+Lactobacillaceae	annotation_background_color	#F7C875
+FGB76241	annotation	*
+FGB76241	annotation_rotation	90
+FGB76241	annotation_background_color	#F7C875
+FGB76719	annotation	*
+FGB76719	annotation_rotation	90
+FGB76719	annotation_background_color	#91DBF6
+Veillonellaceae	annotation	*
+Veillonellaceae	annotation_rotation	90
+Veillonellaceae	annotation_background_color	#F7C875
+FGB76185	annotation	*
+FGB76185	annotation_rotation	90
+FGB76185	annotation_background_color	#85F29B
+FGB75970	annotation	*
+FGB75970	annotation_rotation	90
+FGB75970	annotation_background_color	#91DBF6
+FGB9397	annotation	*
+FGB9397	annotation_rotation	90
+FGB9397	annotation_background_color	#91DBF6
+FGB76288	annotation	*
+FGB76288	annotation_rotation	90
+FGB76288	annotation_background_color	#91DBF6
+FGB10344	annotation	*
+FGB10344	annotation_rotation	90
+FGB10344	annotation_background_color	#F7C875
+FGB75907	annotation	*
+FGB75907	annotation_rotation	90
+FGB75907	annotation_background_color	grey
+FGB76235	annotation	*
+FGB76235	annotation_rotation	90
+FGB76235	annotation_background_color	#F7C875
+Oscillospiraceae	annotation	*
+Oscillospiraceae	annotation_rotation	90
+Oscillospiraceae	annotation_background_color	#F7C875
+Streptococcaceae	annotation	*
+Streptococcaceae	annotation_rotation	90
+Streptococcaceae	annotation_background_color	#F7C875
+Desulfovibrionaceae	annotation	*
+Desulfovibrionaceae	annotation_rotation	90
+Desulfovibrionaceae	annotation_background_color	#85F29B
+Selenomonadaceae	annotation	*
+Selenomonadaceae	annotation_rotation	90
+Selenomonadaceae	annotation_background_color	#F7C875
+Clostridiaceae	annotation	*
+Clostridiaceae	annotation_rotation	90
+Clostridiaceae	annotation_background_color	#F7C875
+FGB635	annotation	*
+FGB635	annotation_rotation	90
+FGB635	annotation_background_color	#91DBF6
+Lachnospiraceae	annotation	*
+Lachnospiraceae	annotation_rotation	90
+Lachnospiraceae	annotation_background_color	#F7C875
+Muribaculaceae	annotation	*
+Muribaculaceae	annotation_rotation	90
+Muribaculaceae	annotation_background_color	#91DBF6
+FGB9318	annotation	*
+FGB9318	annotation_rotation	90
+FGB9318	annotation_background_color	grey
+Barnesiellaceae	annotation	*
+Barnesiellaceae	annotation_rotation	90
+Barnesiellaceae	annotation_background_color	#91DBF6
+Acidaminococcaceae	annotation	*
+Acidaminococcaceae	annotation_rotation	90
+Acidaminococcaceae	annotation_background_color	#F7C875
+Bifidobacteriaceae	annotation	*
+Bifidobacteriaceae	annotation_rotation	90
+Bifidobacteriaceae	annotation_background_color	#F58D8D
+FGB76111	annotation	*
+FGB76111	annotation_rotation	90
+FGB76111	annotation_background_color	#91DBF6
+FGB1791	annotation	*
+FGB1791	annotation_rotation	90
+FGB1791	annotation_background_color	#91DBF6
+Deferribacteraceae	annotation	*
+Deferribacteraceae	annotation_rotation	90
+Deferribacteraceae	annotation_background_color	grey
+FGB76450	annotation	*
+FGB76450	annotation_rotation	90
+FGB76450	annotation_background_color	#85F29B
+Rikenellaceae	annotation	*
+Rikenellaceae	annotation_rotation	90
+Rikenellaceae	annotation_background_color	#91DBF6
+Tannerellaceae	annotation	*
+Tannerellaceae	annotation_rotation	90
+Tannerellaceae	annotation_background_color	#91DBF6
+FGB74566	annotation	*
+FGB74566	annotation_rotation	90
+FGB74566	annotation_background_color	#91DBF6
+FGB8157	annotation	*
+FGB8157	annotation_rotation	90
+FGB8157	annotation_background_color	grey
+FGB76004	annotation	*
+FGB76004	annotation_rotation	90
+FGB76004	annotation_background_color	#91DBF6
+Turicibacteraceae	annotation	*
+Turicibacteraceae	annotation_rotation	90
+Turicibacteraceae	annotation_background_color	#F7C875
+FGB2838	annotation	*
+FGB2838	annotation_rotation	90
+FGB2838	annotation_background_color	#91DBF6
+Atopobiaceae	annotation	*
+Atopobiaceae	annotation_rotation	90
+Atopobiaceae	annotation_background_color	#F58D8D
+Prevotellaceae	annotation	*
+Prevotellaceae	annotation_rotation	90
+Prevotellaceae	annotation_background_color	#91DBF6
+FGB4875	annotation	*
+FGB4875	annotation_rotation	90
+FGB4875	annotation_background_color	#91DBF6
+Akkermansiaceae	annotation	*
+Akkermansiaceae	annotation_rotation	90
+Akkermansiaceae	annotation_background_color	grey
+FGB76183	annotation	*
+FGB76183	annotation_rotation	90
+FGB76183	annotation_background_color	#91DBF6
+FGB76294	annotation	*
+FGB76294	annotation_rotation	90
+FGB76294	annotation_background_color	#F7C875
+Halomonadaceae	annotation	*
+Halomonadaceae	annotation_rotation	90
+Halomonadaceae	annotation_background_color	#85F29B
+Erysipelotrichaceae	annotation	*
+Erysipelotrichaceae	annotation_rotation	90
+Erysipelotrichaceae	annotation_background_color	#F7C875
+FGB76173	annotation	*
+FGB76173	annotation_rotation	90
+FGB76173	annotation_background_color	#F7C875
+Eubacteriaceae	annotation	*
+Eubacteriaceae	annotation_rotation	90
+Eubacteriaceae	annotation_background_color	#F7C875
+Staphylococcaceae	annotation	*
+Staphylococcaceae	annotation_rotation	90
+Staphylococcaceae	annotation_background_color	#F7C875
+FGB72809	annotation	*
+FGB72809	annotation_rotation	90
+FGB72809	annotation_background_color	#F7C875
+FGB9382	annotation	*
+FGB9382	annotation_rotation	90
+FGB9382	annotation_background_color	#91DBF6
+FGB9827	annotation	*
+FGB9827	annotation_rotation	90
+FGB9827	annotation_background_color	#F7C875
+Enterobacteriaceae	annotation	*
+Enterobacteriaceae	annotation_rotation	90
+Enterobacteriaceae	annotation_background_color	#85F29B
+Sutterellaceae	annotation	*
+Sutterellaceae	annotation_rotation	90
+Sutterellaceae	annotation_background_color	#85F29B
+FGB76349	annotation	*
+FGB76349	annotation_rotation	90
+FGB76349	annotation_background_color	#91DBF6
+FGB76404	annotation	*
+FGB76404	annotation_rotation	90
+FGB76404	annotation_background_color	#85F29B
+Aerococcaceae	annotation	*
+Aerococcaceae	annotation_rotation	90
+Aerococcaceae	annotation_background_color	#F7C875
+FGB75980	annotation	*
+FGB75980	annotation_rotation	90
+FGB75980	annotation_background_color	#F7C875
+FGB76308	annotation	*
+FGB76308	annotation_rotation	90
+FGB76308	annotation_background_color	#F7C875
+Eubacteriales	annotation	*
+Eubacteriales	annotation_rotation	90
+Eubacteriales	annotation_background_color	#F7C875
+Mycobacteriaceae	annotation	*
+Mycobacteriaceae	annotation_rotation	90
+Mycobacteriaceae	annotation_background_color	#F58D8D
+FGB1227	annotation	*
+FGB1227	annotation_rotation	90
+FGB1227	annotation_background_color	#F7C875
+FGB76026	annotation	*
+FGB76026	annotation_rotation	90
+FGB76026	annotation_background_color	#91DBF6
+Streptomycetaceae	annotation	*
+Streptomycetaceae	annotation_rotation	90
+Streptomycetaceae	annotation_background_color	#F58D8D
+FGB75900	annotation	*
+FGB75900	annotation_rotation	90
+FGB75900	annotation_background_color	#F7C875
+FGB72926	annotation	*
+FGB72926	annotation_rotation	90
+FGB72926	annotation_background_color	#F7C875
+FGB10213	annotation	*
+FGB10213	annotation_rotation	90
+FGB10213	annotation_background_color	#F7C875
+FGB593	annotation	*
+FGB593	annotation_rotation	90
+FGB593	annotation_background_color	#91DBF6
+FGB76491	annotation	*
+FGB76491	annotation_rotation	90
+FGB76491	annotation_background_color	#F7C875
+FGB76124	annotation	*
+FGB76124	annotation_rotation	90
+FGB76124	annotation_background_color	#F7C875
+FGB76080	annotation	*
+FGB76080	annotation_rotation	90
+FGB76080	annotation_background_color	#F7C875
+FGB39487	annotation	*
+FGB39487	annotation_rotation	90
+FGB39487	annotation_background_color	#F7C875
+Christensenellaceae	annotation	*
+Christensenellaceae	annotation_rotation	90
+Christensenellaceae	annotation_background_color	#F7C875
+Peptoniphilaceae	annotation	*
+Peptoniphilaceae	annotation_rotation	90
+Peptoniphilaceae	annotation_background_color	#F7C875
+FGB37314	annotation	*
+FGB37314	annotation_rotation	90
+FGB37314	annotation_background_color	#F7C875
+FGB76355	annotation	*
+FGB76355	annotation_rotation	90
+FGB76355	annotation_background_color	#F7C875
+ring_internal_separator_thickness	1	0.5
+ring_width	1	1
+ring_color	1	blue
+SGB19394	ring_alpha	1	1.6461
+SGB2095	ring_alpha	1	2.5521
+SGB27814	ring_alpha	1	2.4786
+SGB19395	ring_alpha	1	0.1328
+SGB21449	ring_alpha	1	5.0499
+SGB21961	ring_alpha	1	0.0072
+SGB7041	ring_alpha	1	5.1233
+SGB41326	ring_alpha	1	1.7068
+SGB40070	ring_alpha	1	0.0907
+SGB35952	ring_alpha	1	0
+SGB40878	ring_alpha	1	0.7878
+SGB44483	ring_alpha	1	1.4877
+SGB35953	ring_alpha	1	3.0732
+SGB40319	ring_alpha	1	3.0161
+SGB40412	ring_alpha	1	5.4961
+SGB45211	ring_alpha	1	1.1811
+SGB44276	ring_alpha	1	0
+SGB7055	ring_alpha	1	0.0025
+SGB29427	ring_alpha	1	0
+SGB40803	ring_alpha	1	2.0864
+SGB29815	ring_alpha	1	0
+SGB1813	ring_alpha	1	0.1889
+SGB40192	ring_alpha	1	0
+SGB40326	ring_alpha	1	0.8757
+SGB40327	ring_alpha	1	1.221
+SGB40306	ring_alpha	1	0.3122
+SGB45212	ring_alpha	1	0.6618
+SGB4675	ring_alpha	1	0.4291
+SGB41502	ring_alpha	1	0.6218
+SGB40344	ring_alpha	1	2.4476
+SGB102419	ring_alpha	1	2.3108
+SGB40789	ring_alpha	1	1.8497
+SGB39772	ring_alpha	1	0.8229
+SGB27763	ring_alpha	1	0.7829
+SGB4573	ring_alpha	1	1.9046
+SGB17279	ring_alpha	1	0.5195
+SGB40196	ring_alpha	1	0.6347
+SGB43257	ring_alpha	1	1.333
+SGB35575	ring_alpha	1	0.4025
+SGB1814	ring_alpha	1	2.3455
+SGB94793	ring_alpha	1	1.1598
+SGB1861	ring_alpha	1	1.1812
+SGB19472	ring_alpha	1	0.3731
+SGB40345	ring_alpha	1	0.3027
+SGB40885	ring_alpha	1	0.5428
+SGB40307	ring_alpha	1	0.4457
+SGB94994	ring_alpha	1	1.9814
+SGB102608	ring_alpha	1	0.8732
+SGB40207	ring_alpha	1	0
+SGB1934	ring_alpha	1	0.1362
+SGB40359	ring_alpha	1	1.1477
+SGB39778	ring_alpha	1	1.7309
+SGB40793	ring_alpha	1	0.7785
+SGB2088	ring_alpha	1	1.2614
+SGB39153	ring_alpha	1	1.3629
+SGB40190	ring_alpha	1	0.2209
+SGB42251	ring_alpha	1	0.0415
+SGB1836	ring_alpha	1	0.5379
+SGB40522	ring_alpha	1	0.7133
+SGB40184	ring_alpha	1	0.6405
+SGB40814	ring_alpha	1	0.0199
+SGB35950	ring_alpha	1	0.9367
+SGB102618	ring_alpha	1	1.0473
+SGB29419	ring_alpha	1	0.0636
+SGB9226	ring_alpha	1	0.321
+SGB40188	ring_alpha	1	0.8596
+SGB43540	ring_alpha	1	0.3023
+SGB102612	ring_alpha	1	0.6653
+SGB59786	ring_alpha	1	0.0101
+SGB40985	ring_alpha	1	1.0919
+SGB4041	ring_alpha	1	0.6567
+SGB39781	ring_alpha	1	0.9393
+SGB42344	ring_alpha	1	0.1075
+SGB95258	ring_alpha	1	1.254
+SGB35935	ring_alpha	1	0.0533
+SGB40208	ring_alpha	1	0.4488
+SGB42999	ring_alpha	1	0.0118
+SGB40368	ring_alpha	1	0.6241
+SGB42252	ring_alpha	1	0
+SGB2089	ring_alpha	1	0.2371
+SGB21440	ring_alpha	1	1.0087
+SGB2299	ring_alpha	1	0.2373
+SGB63186	ring_alpha	1	0.074
+SGB42317	ring_alpha	1	0.1637
+SGB35895	ring_alpha	1	0.3826
+SGB10068	ring_alpha	1	0
+SGB9262	ring_alpha	1	0.0907
+SGB41496	ring_alpha	1	1.0438
+SGB40295	ring_alpha	1	0.7259
+SGB1815	ring_alpha	1	0.0012
+SGB9338	ring_alpha	1	0
+SGB40890	ring_alpha	1	0.2949
+SGB40791	ring_alpha	1	0.0039
+SGB43516	ring_alpha	1	0.1332
+SGB21446	ring_alpha	1	0
+SGB41559	ring_alpha	1	0
+SGB1863	ring_alpha	1	0.1007
+SGB41561	ring_alpha	1	0.1027
+SGB39776	ring_alpha	1	0.0258
+SGB1877	ring_alpha	1	0
+SGB43533	ring_alpha	1	0.0999
+SGB63209	ring_alpha	1	0.1047
+SGB40310	ring_alpha	1	3e-04
+SGB39769	ring_alpha	1	0.0276
+SGB41704	ring_alpha	1	0
+SGB1810	ring_alpha	1	0.1795
+SGB102224	ring_alpha	1	0.414
+SGB21584	ring_alpha	1	0.3134
+SGB102613	ring_alpha	1	0.4276
+SGB40352	ring_alpha	1	0.1872
+SGB7253	ring_alpha	1	0.2089
+SGB2087	ring_alpha	1	0
+SGB45057	ring_alpha	1	0.5137
+SGB45197	ring_alpha	1	0.5304
+SGB3995	ring_alpha	1	0
+SGB2107	ring_alpha	1	0.6759
+SGB43452	ring_alpha	1	0
+SGB27790	ring_alpha	1	0.0088
+SGB41629	ring_alpha	1	0.4399
+SGB44472	ring_alpha	1	0.4719
+SGB1942	ring_alpha	1	0.2145
+SGB43559	ring_alpha	1	0.4659
+SGB4047	ring_alpha	1	0.0552
+SGB1950	ring_alpha	1	0.2026
+SGB63214	ring_alpha	1	0
+SGB40209	ring_alpha	1	0.3594
+SGB7040	ring_alpha	1	0
+SGB7077	ring_alpha	1	0.3329
+SGB59494	ring_alpha	1	0.0093
+SGB40987	ring_alpha	1	0
+SGB9258	ring_alpha	1	0.5075
+SGB43506	ring_alpha	1	0
+SGB45228	ring_alpha	1	2e-04
+SGB9265	ring_alpha	1	0.2062
+SGB95309	ring_alpha	1	0.2777
+SGB44536	ring_alpha	1	0.4687
+SGB65092	ring_alpha	1	0.0248
+SGB1941	ring_alpha	1	0.2167
+SGB43003	ring_alpha	1	0.0067
+SGB27768	ring_alpha	1	0
+SGB35892	ring_alpha	1	0.0885
+SGB43519	ring_alpha	1	0.021
+SGB48104	ring_alpha	1	0.1851
+SGB92834	ring_alpha	1	0.0023
+SGB43557	ring_alpha	1	0.2204
+SGB63218	ring_alpha	1	0.0377
+SGB41002	ring_alpha	1	0
+SGB40980	ring_alpha	1	0
+SGB59846	ring_alpha	1	0
+SGB43514	ring_alpha	1	2e-04
+ring_internal_separator_thickness	2	0.5
+ring_width	2	1
+ring_color	2	green
+SGB19394	ring_alpha	2	3.0161
+SGB2095	ring_alpha	2	7.0049
+SGB27814	ring_alpha	2	4.9009
+SGB19395	ring_alpha	2	0.1813
+SGB21449	ring_alpha	2	4.158
+SGB21961	ring_alpha	2	0.093
+SGB7041	ring_alpha	2	2.2908
+SGB41326	ring_alpha	2	5.5105
+SGB40070	ring_alpha	2	0.075
+SGB35952	ring_alpha	2	0
+SGB40878	ring_alpha	2	1.367
+SGB44483	ring_alpha	2	1.4782
+SGB35953	ring_alpha	2	1.9795
+SGB40319	ring_alpha	2	2.8102
+SGB40412	ring_alpha	2	0.2398
+SGB45211	ring_alpha	2	3.2273
+SGB44276	ring_alpha	2	0.0016
+SGB7055	ring_alpha	2	0
+SGB29427	ring_alpha	2	0
+SGB40803	ring_alpha	2	0.9771
+SGB29815	ring_alpha	2	0
+SGB1813	ring_alpha	2	2.058
+SGB40192	ring_alpha	2	0
+SGB40326	ring_alpha	2	2.8294
+SGB40327	ring_alpha	2	1.6612
+SGB40306	ring_alpha	2	1.8305
+SGB45212	ring_alpha	2	2.108
+SGB4675	ring_alpha	2	2.8061
+SGB41502	ring_alpha	2	0.6969
+SGB40344	ring_alpha	2	0.6506
+SGB102419	ring_alpha	2	0.5979
+SGB40789	ring_alpha	2	0.7737
+SGB39772	ring_alpha	2	0.6204
+SGB27763	ring_alpha	2	1.8117
+SGB4573	ring_alpha	2	0.6798
+SGB17279	ring_alpha	2	0.5162
+SGB40196	ring_alpha	2	0.2474
+SGB43257	ring_alpha	2	0.9342
+SGB35575	ring_alpha	2	1.8749
+SGB1814	ring_alpha	2	0
+SGB94793	ring_alpha	2	0.0887
+SGB1861	ring_alpha	2	1.1155
+SGB19472	ring_alpha	2	1.179
+SGB40345	ring_alpha	2	1.8285
+SGB40885	ring_alpha	2	0.1596
+SGB40307	ring_alpha	2	0.3961
+SGB94994	ring_alpha	2	0
+SGB102608	ring_alpha	2	0.3507
+SGB40207	ring_alpha	2	0
+SGB1934	ring_alpha	2	0.8989
+SGB40359	ring_alpha	2	0.6434
+SGB39778	ring_alpha	2	0.0486
+SGB40793	ring_alpha	2	0.3438
+SGB2088	ring_alpha	2	0.5302
+SGB39153	ring_alpha	2	0.345
+SGB40190	ring_alpha	2	1.3981
+SGB42251	ring_alpha	2	0.128
+SGB1836	ring_alpha	2	1.1767
+SGB40522	ring_alpha	2	0.9294
+SGB40184	ring_alpha	2	0.5763
+SGB40814	ring_alpha	2	1.5492
+SGB35950	ring_alpha	2	0.4337
+SGB102618	ring_alpha	2	0.1034
+SGB29419	ring_alpha	2	0.0155
+SGB9226	ring_alpha	2	0.5429
+SGB40188	ring_alpha	2	0.4967
+SGB43540	ring_alpha	2	0.5831
+SGB102612	ring_alpha	2	0.1222
+SGB59786	ring_alpha	2	0.0028
+SGB40985	ring_alpha	2	0.0242
+SGB4041	ring_alpha	2	0.6471
+SGB39781	ring_alpha	2	0.1898
+SGB42344	ring_alpha	2	0
+SGB95258	ring_alpha	2	0.0073
+SGB35935	ring_alpha	2	0.9652
+SGB40208	ring_alpha	2	0.8097
+SGB42999	ring_alpha	2	0.1208
+SGB40368	ring_alpha	2	0.0308
+SGB42252	ring_alpha	2	0
+SGB2089	ring_alpha	2	0.2378
+SGB21440	ring_alpha	2	0.1342
+SGB2299	ring_alpha	2	0.1701
+SGB63186	ring_alpha	2	0.0634
+SGB42317	ring_alpha	2	0.7086
+SGB35895	ring_alpha	2	0.563
+SGB10068	ring_alpha	2	0
+SGB9262	ring_alpha	2	0.5995
+SGB41496	ring_alpha	2	0.0197
+SGB40295	ring_alpha	2	0.2267
+SGB1815	ring_alpha	2	1.0457
+SGB9338	ring_alpha	2	0
+SGB40890	ring_alpha	2	0.0885
+SGB40791	ring_alpha	2	0.2663
+SGB43516	ring_alpha	2	0.055
+SGB21446	ring_alpha	2	0
+SGB41559	ring_alpha	2	0.9686
+SGB1863	ring_alpha	2	0.748
+SGB41561	ring_alpha	2	0.0866
+SGB39776	ring_alpha	2	0.0194
+SGB1877	ring_alpha	2	0.9248
+SGB43533	ring_alpha	2	0.1404
+SGB63209	ring_alpha	2	0.1424
+SGB40310	ring_alpha	2	0.8692
+SGB39769	ring_alpha	2	0
+SGB41704	ring_alpha	2	0
+SGB1810	ring_alpha	2	0.642
+SGB102224	ring_alpha	2	0.3292
+SGB21584	ring_alpha	2	0.1807
+SGB102613	ring_alpha	2	0.0381
+SGB40352	ring_alpha	2	0.214
+SGB7253	ring_alpha	2	0.5286
+SGB2087	ring_alpha	2	0
+SGB45057	ring_alpha	2	0.0709
+SGB45197	ring_alpha	2	0.1438
+SGB3995	ring_alpha	2	0.6768
+SGB2107	ring_alpha	2	0
+SGB43452	ring_alpha	2	0
+SGB27790	ring_alpha	2	0.0767
+SGB41629	ring_alpha	2	0.0019
+SGB44472	ring_alpha	2	0.1562
+SGB1942	ring_alpha	2	0.4108
+SGB43559	ring_alpha	2	0.0411
+SGB4047	ring_alpha	2	0.4951
+SGB1950	ring_alpha	2	0.4008
+SGB63214	ring_alpha	2	0
+SGB40209	ring_alpha	2	0.1874
+SGB7040	ring_alpha	2	0
+SGB7077	ring_alpha	2	0.102
+SGB59494	ring_alpha	2	9e-04
+SGB40987	ring_alpha	2	0
+SGB9258	ring_alpha	2	0.0108
+SGB43506	ring_alpha	2	0
+SGB45228	ring_alpha	2	0.1372
+SGB9265	ring_alpha	2	0.216
+SGB95309	ring_alpha	2	0.2136
+SGB44536	ring_alpha	2	0.0057
+SGB65092	ring_alpha	2	0.4656
+SGB1941	ring_alpha	2	0.0179
+SGB43003	ring_alpha	2	0
+SGB27768	ring_alpha	2	0
+SGB35892	ring_alpha	2	0.1555
+SGB43519	ring_alpha	2	0.0186
+SGB48104	ring_alpha	2	0.1546
+SGB92834	ring_alpha	2	0
+SGB43557	ring_alpha	2	0.0944
+SGB63218	ring_alpha	2	0.0036
+SGB41002	ring_alpha	2	0
+SGB40980	ring_alpha	2	0
+SGB59846	ring_alpha	2	0
+SGB43514	ring_alpha	2	0.0014
+ring_internal_separator_thickness	3	0.5
+ring_width	3	1
+ring_color	3	red
+SGB19394	ring_alpha	3	0
+SGB2095	ring_alpha	3	0
+SGB27814	ring_alpha	3	9.7311
+SGB19395	ring_alpha	3	12.4993
+SGB21449	ring_alpha	3	0
+SGB21961	ring_alpha	3	9.1767
+SGB7041	ring_alpha	3	0
+SGB41326	ring_alpha	3	0.5038
+SGB40070	ring_alpha	3	7.1238
+SGB35952	ring_alpha	3	0
+SGB40878	ring_alpha	3	4.853
+SGB44483	ring_alpha	3	0
+SGB35953	ring_alpha	3	0.9137
+SGB40319	ring_alpha	3	0
+SGB40412	ring_alpha	3	0
+SGB45211	ring_alpha	3	1.1783
+SGB44276	ring_alpha	3	4.7119
+SGB7055	ring_alpha	3	0
+SGB29427	ring_alpha	3	0
+SGB40803	ring_alpha	3	1.4102
+SGB29815	ring_alpha	3	4.3044
+SGB1813	ring_alpha	3	1.8314
+SGB40192	ring_alpha	3	0
+SGB40326	ring_alpha	3	0
+SGB40327	ring_alpha	3	0.7243
+SGB40306	ring_alpha	3	1.3851
+SGB45212	ring_alpha	3	0.4677
+SGB4675	ring_alpha	3	0
+SGB41502	ring_alpha	3	0
+SGB40344	ring_alpha	3	0
+SGB102419	ring_alpha	3	0.173
+SGB40789	ring_alpha	3	0
+SGB39772	ring_alpha	3	0.3183
+SGB27763	ring_alpha	3	0
+SGB4573	ring_alpha	3	0
+SGB17279	ring_alpha	3	0.0739
+SGB40196	ring_alpha	3	1.6094
+SGB43257	ring_alpha	3	0
+SGB35575	ring_alpha	3	0.0442
+SGB1814	ring_alpha	3	0
+SGB94793	ring_alpha	3	0
+SGB1861	ring_alpha	3	0
+SGB19472	ring_alpha	3	0
+SGB40345	ring_alpha	3	0
+SGB40885	ring_alpha	3	0.8832
+SGB40307	ring_alpha	3	1.1554
+SGB94994	ring_alpha	3	0.0085
+SGB102608	ring_alpha	3	0.6297
+SGB40207	ring_alpha	3	0
+SGB1934	ring_alpha	3	0.8491
+SGB40359	ring_alpha	3	0
+SGB39778	ring_alpha	3	0.0075
+SGB40793	ring_alpha	3	0.3964
+SGB2088	ring_alpha	3	0
+SGB39153	ring_alpha	3	0.0654
+SGB40190	ring_alpha	3	0
+SGB42251	ring_alpha	3	0.4898
+SGB1836	ring_alpha	3	0.0012
+SGB40522	ring_alpha	3	0
+SGB40184	ring_alpha	3	0.0066
+SGB40814	ring_alpha	3	0
+SGB35950	ring_alpha	3	0.0223
+SGB102618	ring_alpha	3	0
+SGB29419	ring_alpha	3	0.0014
+SGB9226	ring_alpha	3	0.5302
+SGB40188	ring_alpha	3	0.0223
+SGB43540	ring_alpha	3	0.4643
+SGB102612	ring_alpha	3	0.3799
+SGB59786	ring_alpha	3	0.0013
+SGB40985	ring_alpha	3	0.0088
+SGB4041	ring_alpha	3	0
+SGB39781	ring_alpha	3	0.1038
+SGB42344	ring_alpha	3	1.1595
+SGB95258	ring_alpha	3	0
+SGB35935	ring_alpha	3	0.1811
+SGB40208	ring_alpha	3	0
+SGB42999	ring_alpha	3	1.0893
+SGB40368	ring_alpha	3	0.4839
+SGB42252	ring_alpha	3	1.1644
+SGB2089	ring_alpha	3	0.6854
+SGB21440	ring_alpha	3	0
+SGB2299	ring_alpha	3	0.7019
+SGB63186	ring_alpha	3	0.8933
+SGB42317	ring_alpha	3	0.0347
+SGB35895	ring_alpha	3	0
+SGB10068	ring_alpha	3	1.0735
+SGB9262	ring_alpha	3	0.2091
+SGB41496	ring_alpha	3	0
+SGB40295	ring_alpha	3	0.0943
+SGB1815	ring_alpha	3	0
+SGB9338	ring_alpha	3	1.0036
+SGB40890	ring_alpha	3	0.3779
+SGB40791	ring_alpha	3	0
+SGB43516	ring_alpha	3	0.781
+SGB21446	ring_alpha	3	0
+SGB41559	ring_alpha	3	0
+SGB1863	ring_alpha	3	0.0028
+SGB41561	ring_alpha	3	0.719
+SGB39776	ring_alpha	3	0.7998
+SGB1877	ring_alpha	3	0
+SGB43533	ring_alpha	3	0.6551
+SGB63209	ring_alpha	3	0.6201
+SGB40310	ring_alpha	3	0
+SGB39769	ring_alpha	3	0.0019
+SGB41704	ring_alpha	3	0
+SGB1810	ring_alpha	3	0
+SGB102224	ring_alpha	3	0.0314
+SGB21584	ring_alpha	3	0.287
+SGB102613	ring_alpha	3	0.0935
+SGB40352	ring_alpha	3	0.2562
+SGB7253	ring_alpha	3	0
+SGB2087	ring_alpha	3	0
+SGB45057	ring_alpha	3	1e-04
+SGB45197	ring_alpha	3	0.005
+SGB3995	ring_alpha	3	0
+SGB2107	ring_alpha	3	0
+SGB43452	ring_alpha	3	0.051
+SGB27790	ring_alpha	3	0.1126
+SGB41629	ring_alpha	3	0.2084
+SGB44472	ring_alpha	3	0
+SGB1942	ring_alpha	3	0
+SGB43559	ring_alpha	3	0.0567
+SGB4047	ring_alpha	3	0.0645
+SGB1950	ring_alpha	3	0
+SGB63214	ring_alpha	3	0.56
+SGB40209	ring_alpha	3	0.0075
+SGB7040	ring_alpha	3	0
+SGB7077	ring_alpha	3	0.0619
+SGB59494	ring_alpha	3	0.0713
+SGB40987	ring_alpha	3	0
+SGB9258	ring_alpha	3	0
+SGB43506	ring_alpha	3	0.5114
+SGB45228	ring_alpha	3	0.3198
+SGB9265	ring_alpha	3	0.0451
+SGB95309	ring_alpha	3	0
+SGB44536	ring_alpha	3	0.0169
+SGB65092	ring_alpha	3	0
+SGB1941	ring_alpha	3	0.2501
+SGB43003	ring_alpha	3	0.1603
+SGB27768	ring_alpha	3	0
+SGB35892	ring_alpha	3	0.0024
+SGB43519	ring_alpha	3	0.4019
+SGB48104	ring_alpha	3	0.0823
+SGB92834	ring_alpha	3	0.4451
+SGB43557	ring_alpha	3	0.0853
+SGB63218	ring_alpha	3	0.3839
+SGB41002	ring_alpha	3	0.4235
+SGB40980	ring_alpha	3	0.3559
+SGB59846	ring_alpha	3	0
+SGB43514	ring_alpha	3	0.3942
+ring_internal_separator_thickness	4	0.5
+ring_width	4	1
+ring_color	4	cyan
+SGB19394	ring_alpha	4	27.6886
+SGB2095	ring_alpha	4	15.6661
+SGB27814	ring_alpha	4	0.485
+SGB19395	ring_alpha	4	1.2972
+SGB21449	ring_alpha	4	1.4822
+SGB21961	ring_alpha	4	0
+SGB7041	ring_alpha	4	0.3461
+SGB41326	ring_alpha	4	0
+SGB40070	ring_alpha	4	0.0397
+SGB35952	ring_alpha	4	7.1949
+SGB40878	ring_alpha	4	0.1823
+SGB44483	ring_alpha	4	3.1934
+SGB35953	ring_alpha	4	0.0455
+SGB40319	ring_alpha	4	0.0474
+SGB40412	ring_alpha	4	0
+SGB45211	ring_alpha	4	0
+SGB44276	ring_alpha	4	0
+SGB7055	ring_alpha	4	4.4994
+SGB29427	ring_alpha	4	4.4852
+SGB40803	ring_alpha	4	0.004
+SGB29815	ring_alpha	4	0
+SGB1813	ring_alpha	4	0.0932
+SGB40192	ring_alpha	4	3.8583
+SGB40326	ring_alpha	4	0.088
+SGB40327	ring_alpha	4	0.1482
+SGB40306	ring_alpha	4	0.0437
+SGB45212	ring_alpha	4	0
+SGB4675	ring_alpha	4	0
+SGB41502	ring_alpha	4	1.8289
+SGB40344	ring_alpha	4	0
+SGB102419	ring_alpha	4	0
+SGB40789	ring_alpha	4	0.1503
+SGB39772	ring_alpha	4	0.9732
+SGB27763	ring_alpha	4	0.0581
+SGB4573	ring_alpha	4	0
+SGB17279	ring_alpha	4	1.4624
+SGB40196	ring_alpha	4	0.0183
+SGB43257	ring_alpha	4	0.2389
+SGB35575	ring_alpha	4	0.1678
+SGB1814	ring_alpha	4	0
+SGB94793	ring_alpha	4	1.0901
+SGB1861	ring_alpha	4	0.0065
+SGB19472	ring_alpha	4	0.5976
+SGB40345	ring_alpha	4	0
+SGB40885	ring_alpha	4	0.5357
+SGB40307	ring_alpha	4	3e-04
+SGB94994	ring_alpha	4	0
+SGB102608	ring_alpha	4	0.1028
+SGB40207	ring_alpha	4	1.9459
+SGB1934	ring_alpha	4	0
+SGB40359	ring_alpha	4	0.049
+SGB39778	ring_alpha	4	0.0492
+SGB40793	ring_alpha	4	0.3128
+SGB2088	ring_alpha	4	0.0124
+SGB39153	ring_alpha	4	0
+SGB40190	ring_alpha	4	0.1239
+SGB42251	ring_alpha	4	1.0735
+SGB1836	ring_alpha	4	0
+SGB40522	ring_alpha	4	0.015
+SGB40184	ring_alpha	4	0.4084
+SGB40814	ring_alpha	4	0.0212
+SGB35950	ring_alpha	4	0.0758
+SGB102618	ring_alpha	4	0.271
+SGB29419	ring_alpha	4	1.3269
+SGB9226	ring_alpha	4	0
+SGB40188	ring_alpha	4	0.0052
+SGB43540	ring_alpha	4	0
+SGB102612	ring_alpha	4	0.1613
+SGB59786	ring_alpha	4	1.2931
+SGB40985	ring_alpha	4	0.1818
+SGB4041	ring_alpha	4	0
+SGB39781	ring_alpha	4	0.0511
+SGB42344	ring_alpha	4	0
+SGB95258	ring_alpha	4	0
+SGB35935	ring_alpha	4	0.0597
+SGB40208	ring_alpha	4	0
+SGB42999	ring_alpha	4	0
+SGB40368	ring_alpha	4	0.0636
+SGB42252	ring_alpha	4	0
+SGB2089	ring_alpha	4	0.0026
+SGB21440	ring_alpha	4	0
+SGB2299	ring_alpha	4	0
+SGB63186	ring_alpha	4	0.0782
+SGB42317	ring_alpha	4	0.1935
+SGB35895	ring_alpha	4	0.1286
+SGB10068	ring_alpha	4	0
+SGB9262	ring_alpha	4	0.1679
+SGB41496	ring_alpha	4	0.0013
+SGB40295	ring_alpha	4	0
+SGB1815	ring_alpha	4	0
+SGB9338	ring_alpha	4	0
+SGB40890	ring_alpha	4	0.2253
+SGB40791	ring_alpha	4	0.701
+SGB43516	ring_alpha	4	0.0018
+SGB21446	ring_alpha	4	0.9695
+SGB41559	ring_alpha	4	0
+SGB1863	ring_alpha	4	0.1133
+SGB41561	ring_alpha	4	0.0331
+SGB39776	ring_alpha	4	0.0873
+SGB1877	ring_alpha	4	0
+SGB43533	ring_alpha	4	0.006
+SGB63209	ring_alpha	4	0.0032
+SGB40310	ring_alpha	4	0
+SGB39769	ring_alpha	4	0.8312
+SGB41704	ring_alpha	4	0.8528
+SGB1810	ring_alpha	4	0
+SGB102224	ring_alpha	4	0.0368
+SGB21584	ring_alpha	4	0.0298
+SGB102613	ring_alpha	4	0.2487
+SGB40352	ring_alpha	4	0.0985
+SGB7253	ring_alpha	4	0
+SGB2087	ring_alpha	4	0.7013
+SGB45057	ring_alpha	4	0.1052
+SGB45197	ring_alpha	4	0
+SGB3995	ring_alpha	4	0
+SGB2107	ring_alpha	4	0
+SGB43452	ring_alpha	4	0.6235
+SGB27790	ring_alpha	4	0.4667
+SGB41629	ring_alpha	4	0
+SGB44472	ring_alpha	4	0.0152
+SGB1942	ring_alpha	4	0
+SGB43559	ring_alpha	4	0.0609
+SGB4047	ring_alpha	4	0.0011
+SGB1950	ring_alpha	4	0
+SGB63214	ring_alpha	4	0
+SGB40209	ring_alpha	4	0.0016
+SGB7040	ring_alpha	4	0.5495
+SGB7077	ring_alpha	4	0.0357
+SGB59494	ring_alpha	4	0.4507
+SGB40987	ring_alpha	4	0.5289
+SGB9258	ring_alpha	4	0
+SGB43506	ring_alpha	4	0
+SGB45228	ring_alpha	4	0.0369
+SGB9265	ring_alpha	4	0.0259
+SGB95309	ring_alpha	4	0.0011
+SGB44536	ring_alpha	4	0
+SGB65092	ring_alpha	4	0
+SGB1941	ring_alpha	4	0
+SGB43003	ring_alpha	4	0.305
+SGB27768	ring_alpha	4	0.4701
+SGB35892	ring_alpha	4	0.2135
+SGB43519	ring_alpha	4	0.0103
+SGB48104	ring_alpha	4	0.0285
+SGB92834	ring_alpha	4	0
+SGB43557	ring_alpha	4	0.0436
+SGB63218	ring_alpha	4	0.0177
+SGB41002	ring_alpha	4	0.0084
+SGB40980	ring_alpha	4	0.064
+SGB59846	ring_alpha	4	0.4116
+SGB43514	ring_alpha	4	0.0119
