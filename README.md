@@ -24,6 +24,13 @@ Activate the environment
   ```
 
 ## Quick start
+Prior to creating a plot, you must convert the TSV file (metaphlan4) into an SPF file:
+
+```bash
+chmod a+x script/tsv2spf.py
+
+python script/tsv2spf.py -i taxonomy.tsv -o taxonomy2.spf
+```
 
 Here are two examples of how to use the script:
 
