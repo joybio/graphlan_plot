@@ -45,10 +45,23 @@ if (substr(opts$output,length(opts$output),length(opts$output)) == "/||\\."){
 all_tax <- c("Kingdom","Phylum", "Class", "Order", "Family", "Genus", "Species", "Strain")
 taxonomy = read.table(opts$input,header = T,row.names = NULL,
            sep = "\t",quote = "",check.names = F)
-#taxonomy = read.table("taxonomy2.spf",header = T,row.names = NULL,
+#taxonomy = read.table("taxonomy.spf",header = T,row.names = NULL,
 #           sep = "\t",quote = "",check.names = F)
 tax_id <- intersect(colnames(taxonomy),all_tax)
+
 #tax_id[length(tax_id)]
+#taxonomy
+taxonomy <- subset(taxonomy,taxonomy[,tax_id[length(tax_id)]] != "unclassified")
+taxonomy[,tax_id[length(tax_id)]]
+for(i in tax_id){
+  for (j in c(1:nrow(taxonomy))){
+    if (length(grep("__",taxonomy[j,i]))!=0){
+      taxonomy[j,i] <- substr(taxonomy[j,i],4,nchar(taxonomy[j,i])) 
+    }
+    else{taxonomy[j,i] <- taxonomy[j,i]
+    }
+  }
+}
 row.names(taxonomy) <- taxonomy[,tax_id[length(tax_id)]]
 # 读取实验设计
 metadata = read.table(opts$design, sep="\t", header = TRUE, row.names = 1, 
