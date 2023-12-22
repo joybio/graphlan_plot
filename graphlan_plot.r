@@ -19,7 +19,7 @@ if (TRUE){
     make_option(c("-n", "--number"), type="numeric", default=150,
                 help="Top number threshold [default %default]"),
     make_option(c("-c", "--colname"), type="character", default="Group",
-                help="Select column name to use, e.g. Group [default %default]"),
+                help="Select group column name to use in metadata.txt, e.g. Group [default %default]"),
     make_option(c("-d", "--design"), type="character", default="metadata.tsv",
                 help="Design file or metadata [default %default]"),
     make_option(c("-g", "--group"), type="character", default="all",
@@ -45,22 +45,21 @@ if (substr(opts$output,length(opts$output),length(opts$output)) == "/||\\."){
 all_tax <- c("Kingdom","Phylum", "Class", "Order", "Family", "Genus", "Species", "Strain")
 taxonomy = read.table(opts$input,header = T,row.names = NULL,
            sep = "\t",quote = "",check.names = F)
-#taxonomy = read.table("taxonomy.spf",header = T,row.names = NULL,
+#taxonomy = read.table("taxonomy2.spf",header = T,row.names = NULL,
 #           sep = "\t",quote = "",check.names = F)
 tax_id <- intersect(colnames(taxonomy),all_tax)
-
 #tax_id[length(tax_id)]
-#taxonomy
+# taxonomy
 taxonomy <- subset(taxonomy,taxonomy[,tax_id[length(tax_id)]] != "unclassified")
-taxonomy[,tax_id[length(tax_id)]]
+# taxonomy[,tax_id[length(tax_id)]]
 for(i in tax_id){
-  for (j in c(1:nrow(taxonomy))){
-    if (length(grep("__",taxonomy[j,i]))!=0){
-      taxonomy[j,i] <- substr(taxonomy[j,i],4,nchar(taxonomy[j,i])) 
-    }
-    else{taxonomy[j,i] <- taxonomy[j,i]
-    }
-  }
+	for (j in c(1:nrow(taxonomy))){
+		if (length(grep("__",taxonomy[j,i]))!=0){
+			taxonomy[j,i] <- substr(taxonomy[j,i],4,nchar(taxonomy[j,i])) 
+		}
+	else{taxonomy[j,i] <- taxonomy[j,i]
+      	}
+	}
 }
 row.names(taxonomy) <- taxonomy[,tax_id[length(tax_id)]]
 # 读取实验设计
@@ -70,18 +69,21 @@ metadata = read.table(opts$design, sep="\t", header = TRUE, row.names = 1,
 #           stringsAsFactors = F, comment.char = "")
 #colnames(metadata) <- c("Group")
 GROUPNAME <- opts$colname
+#GROUPNAME
 #GROUPNAME  <- c("Group")
 metadata <- subset(metadata,select=GROUPNAME)
 group <- opts$group
 #group <- "Z,DSS"
 if (group == "all"){
   metadata <- metadata
-  group <- unique(metadata$Group)
+  group <- unique(metadata[,GROUPNAME])
+  #group
 }else{
   group <- unlist(strsplit(group,","))
   metadata <- subset(metadata,metadata[,GROUPNAME] == group)
 }
 
+#head(metadata)
 # 3. 过滤
 # 标准化并求均值
 norm = as.data.frame(t(t(taxonomy[,row.names(metadata)])/colSums(taxonomy[,row.names(metadata)],na=T)*100))
@@ -99,11 +101,13 @@ norm = norm[idx,]
 #taxonomy_id_number <- taxonomy[row.names(filtered_taxonomy_number),]
 ######################################################################################
 filtered_taxonomy = head(norm, number)
+#head(filtered_taxonomy)
 #
 tax_mean <- data.frame(matrix(ncol=0,nrow=nrow(filtered_taxonomy)))
 col_names <- data.frame(matrix(ncol=0,nrow=0))
+#head(group)
 for (i in group){
- temp <- subset(metadata,metadata$Group == eval(i))
+ temp <- subset(metadata,metadata[,GROUPNAME] == eval(i))
  temp_tax <- filtered_taxonomy[,row.names(temp)]
  # 标准化并求均值
  #tem_norm = as.data.frame(t(t(temp_tax)/colSums(temp_tax,na=T)*100))
@@ -115,9 +119,9 @@ for (i in group){
  col_names[i,3] <- max_tem_norm_mean
  tax_mean <- cbind(tem_norm_mean,tax_mean)
 }
+#col_names
 colnames(tax_mean) <- col_names[,1]
 colnames(col_names) <- c("Inner2Outer","Range_min","Range_max")
-
 # 过滤
 # 保存输出文件
 # 过滤的OTU表
@@ -125,21 +129,29 @@ spf_file <- paste0(out,"taxonomy_mean.spf")
 write.table(paste0(tax_id[length(tax_id)],"\t"), file=spf_file, append = F, sep="\t", quote=F, eol = "", row.names=F, col.names=F)
 suppressWarnings(write.table(tax_mean, file=spf_file, append = T, sep="\t", quote=F, row.names=T, col.names=T))
 
+#head(tax_mean)
 taxonomy_id <- taxonomy[row.names(tax_mean),]
-
+#head(taxonomy_id)
 # 读取筛选后的文件，不设置行名
 taxid = taxonomy_id
+#head(taxonomy_id)
 # 筛选门-属5级+OTUID
 all_tax <- c("Phylum", "Class", "Order", "Family", "Genus", "Species", "Strain")
+#all_tax
 only_tax_id <- intersect(colnames(taxonomy_id),all_tax)
+#only_tax_id
 tree = data.frame(taxid[,only_tax_id], stringsAsFactors = F)
-# head(tree)
+#ncol(tree)
+#head(tree)
 ## clarify taxonomy，解决不同级别重名问题，为可识别级别，且与Greengene格式保持一致
 tree[,1] = paste("p__",tree[,1],sep = "")
 tree[,2] = paste("c__",tree[,2],sep = "")
 tree[,3] = paste("o__",tree[,3],sep = "")
 # tree[,4] = paste("f__",tree[,4],sep = "")
+#head(tree)
 if (ncol(tree) == 5){
+  head(tree)
+  tree[,4] = paste("",tree[,4],sep = "")
   }else{if (ncol(tree) == 6){
     tree[,5] = paste("g__",tree[,5],sep = "")
   }else{
@@ -149,7 +161,7 @@ if (ncol(tree) == 5){
     }
   }
 }
-
+#head(tree)
 #tree[,7] = paste("t__",tree[,7],sep = "")
 # save tree backbone, 按点分隔格式
 
@@ -159,11 +171,13 @@ idx = tree[,4] %in% "Unassigned"
 # tree[idx,4] = paste0(tree[idx,4], 1:length(tree[idx,4]))
 # 方法2. 过滤掉科末注释的条目，数量会减少，但图片更美观
 tree = tree[!idx,]
+tax_mean = tax_mean[!idx,]
+#head(tree)
 # 简化一些代_的不规则科名
 tree[,4] = gsub('_\\w*',"",tree[,4])
 tree_file <- paste0(out,"tree1_backbone.txt")
 write.table(tree, file=tree_file, sep=".", col.names=F, row.names=F, quote=F)
-
+#head(tree)
 # 列出现在有门、纲、目、科、属，用于设置与门对应的背景色
 Phylum = unique(tree[,1]) 
 Class = unique(tree[,2])
@@ -178,17 +192,18 @@ if (ncol(tree) >5){
 }
 # 筛选四大菌门中的科并按门着色
 # 修改为目，则将tree的4列改为3列，Family改为Order
+#tree
 pro = tree[tree[,1]=="p__Proteobacteria",4]
 act = tree[tree[,1]=="p__Actinobacteria",4] 
 bac = tree[tree[,1]=="p__Bacteroidetes",4]
 fir = tree[tree[,1]=="p__Firmicutes",4]
-
+#fir
 # 对每个科进行标签、文字旋转、按门注释背景色
 # 也可调整为其它级别，如Order, Class或Genus
 label_color = data.frame(stringsAsFactors = F)
 for (element in Family)
 {
- # element
+ #element
  anno = data.frame(stringsAsFactors = F)
  anno[1,1] = element
  anno[1,2] = "annotation"
@@ -220,7 +235,7 @@ for (element in Family)
 }
 tree_file2 <- paste0(out,"tree2_label_color.txt")
 write.table(label_color, tree_file2, sep = "\t", quote = F,col.names = F,row.names = F, na="")
-
+#head(label_color)
 global <- data.frame(
   "global tree options"=c("ignore_branch_len","total_plotted_degrees", "start_rotation",
                           "clade_separation","branch_bracket_depth","branch_bracket_width",
@@ -236,7 +251,7 @@ global <- data.frame(
               rep("clade_marker_color",4),rep("annotation_background_color",4)),
   "color" = c(rep("",19),"#EF5656","#2BB065","#47B3DA","#F7A415","#B0FFC0","#FFB0B0",
               "#B0E9FD","#FCDBA2"))
-
+#global
 #write.table("#", "graphlan_annotate.txt",sep="\t",quote = F,col.names = F,row.names = F, na="")
 annotation_file <- paste0(out,"graphlan_annotate.txt")
 write.table(global, annotation_file,sep="\t",quote = F,col.names = F,row.names = F, na="")
@@ -247,7 +262,7 @@ system(cmd_raw1)
 cmd_raw <- paste0("graphlan.py ",out,"graphlan.xml ",out,"graphlan1_tree_raw.pdf --size 5")
 system(cmd_raw)
 #heatmap
-
+#col_names
 type <- opts$type
 if (type == "heatmap"){
   heat_cfg <- data.frame("ring"=c("ring_internal_separator_thickness","ring_width","ring_color"))
